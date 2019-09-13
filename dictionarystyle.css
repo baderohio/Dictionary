@@ -1,0 +1,138 @@
+/*
+* Programmer : Dr.-Ing. Bader Juma
+* Date       : August 14, 2019
+* File       : dictionarystyle.css
+* Purpose    : external file that contain style
+*/
+
+ 
+  .bgColor, body{
+  
+   background-color: #B4A684;
+  }
+  .navbar-dark {
+      background-color: rgb(146, 52, 31) !important;
+      color: white;
+  }
+   h1 {
+       color:rgb(146, 52, 31);
+   }
+  
+  button {
+    background-color: rgb(146, 52, 31) !important;    
+    color: rgb(235, 233, 228)!important;
+  }
+    
+     a  {
+	  color: #046e6c;
+     }
+	 
+  .activeItem {
+	  background-color: #23B9B7;
+  }
+  
+ 
+  
+  .buttonStyle {
+	  background-color: #23B9B7;
+	  color: #ffffff;
+               }
+   .buttonStyle:hover {
+	  /*background-color: #3e8e41*/
+	  background-color: #065453;
+	                  }
+	  
+  .buttonStyle:active{
+	  /*background-color: #3e8e41*/
+	  background-color: #052b2b;
+	  }
+	  
+	  
+  
+
+
+  
+  .grid-container {
+   /* clear: both; */
+   display: grid;
+  background-color: #89905B; 
+   
+   grid-template-columns: auto auto auto auto;
+  
+   
+                }
+	.grid-item {margin: .5em; }
+   
+    table, td {border: 1px solid #fdcb6e;}
+	
+	td {padding: 1em;}	
+	
+		/********************************/
+	.randData {
+    /*display: block;*/
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+     }
+
+    .randData td, .randData th {
+    border: 1px solid #ddd;
+    padding: 8px auto 8px auto;
+	text-align: center;
+    }
+    .randData tr:nth-child(even){background-color: rgb(173, 146, 80);}
+    .randData tr:hover {background-color: rgb(201, 164, 71);}
+    .randData th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+ 
+	background-color: #DBA113;
+    /* color: white; */
+    }
+    /********************************/
+    
+    /*********************************/
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        /*background-color: #111;*/
+        background-color: rgb(228, 219, 200);
+
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      /*
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      */
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        /*.sidenav a {font-size: 18px;}*/
+      }
+      
+    /**********************************/
+	
