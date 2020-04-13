@@ -5,6 +5,12 @@
 * Purpose    : json file
 */
 myFunction([
+   {
+        "english": "Hand",
+        "arabic": "oneone",
+        "feyli":"یکی",
+        "farsi": "یکی"
+    },
     {
     "english": "One",
     "arabic": "واحد",
