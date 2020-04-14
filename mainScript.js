@@ -17,7 +17,7 @@ text += '<th class="arbCol">عربي</th>';
 text += '<th class="feyCol">فيلي</th>'; 
 text += '<th class="farCol">فارسي</th>'; 
 text += '</tr>';
-     arr.sort(); //the new change April 14, 2020
+     arr.english.sort(); //the new change April 14, 2020
     for(i = 0; i<arr.length; i++) {
         text += '<tr>';
         text += '<td class="engCol">' + arr[i].english + '</td><td class="arbCol">' + arr[i].arabic + '</td><td class="feyCol">' + arr[i].feyli + '</td><td class="farCol">' + arr[i].farsi + '</td>';
