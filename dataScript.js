@@ -6,25 +6,31 @@
 */
 myFunction([
    {
-        "english": "Hand",
+        "english": "B",
         "arabic": "oneone",
         "feyli":"یکی",
         "farsi": "یکی"
     },
     {
-    "english": "One",
+    "english": "C",
     "arabic": "واحد",
     "feyli":"یکی",
     "farsi": "یکی"
     },
     {
-        "english": "One",
+        "english": "A",
         "arabic": "oneone",
         "feyli": "یکی",
         "farsi": "یکی"
     },
     {
-        "english": "One",
+        "english": "Z",
+        "arabic": "oneone",
+        "feyli":"یکی",
+        "farsi": "یکی"
+    },
+    {
+        "english": "t",
         "arabic": "oneone",
         "feyli":"یکی",
         "farsi": "یکی"
@@ -36,13 +42,7 @@ myFunction([
         "farsi": "یکی"
     },
     {
-        "english": "One",
-        "arabic": "oneone",
-        "feyli":"یکی",
-        "farsi": "یکی"
-    },
-    {
-        "english": "One",
+        "english": "f",
         "arabic": "oneone",
         "feyli":"یکی",
         "farsi": "یکی"
